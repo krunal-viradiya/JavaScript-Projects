@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Detilas using API</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #131313;
+        }
+
+        .container {
+            /* width: 400px; */
+            /* height: 300px; */
+            background-color: rgb(37, 37, 37);
+            border-radius: 20px;
+            /* min-width: 500px */
+        }
+
+        .container h1 {
+            text-align: center;
+            color: white;
+        }
+
+        .input-data {
+            display: flex;
+            padding: 0 30px;
+            justify-content:space-between;
+            height: 50px;
+            /* background-color: red; */
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .input-data button {
+            height: 100%;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            color: white;
+            background-color: blueviolet;
+            width: 25%;
+        }
+
+        .input-data input {
+            height: 100%;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            background-color: #3c3c3c;
+            color: white;
+            padding: 0px 10px;
+            box-sizing: border-box;
+            font-size: 15px;
+            width: 70%;
+        }
+
+        #get-data {
+            text-align: center;
+            color: white;
+            /* visibility: hidden; */
+        }
+
+        #error-message {
+            color: red;
+            text-align: center;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Data</h1>
+        <div class="input-data">
+            <input type="text" placeholder="Enter city name..." id="input-city">
+            <button id="input-city-button">Get Data</button>
+        </div>
+        <div id="get-data" class="hidden">
+            <h2 id="city-name"></h2>
+            <p id="city-tempo"></p>
+            <p id="city-desc"></p>
+        </div>
+        <p id="error-message" class="hidden">City not found. Please try again.</p>
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+
+</html>
+
