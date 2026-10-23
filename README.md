@@ -11,7 +11,7 @@ Here you will find a curated collection of practical front-end applications, ran
 | Directory Name | Project Name | Status | Tech Stack |
 | :--- | :--- | :--- | :--- |
 | `weatherProject` | **Weather App** | 🟢 Completed | HTML5, CSS3, JavaScript (Fetch API) |
-| `Expense Tracker` | **Expense Tracker** | ⏳ In Progress | HTML5, CSS3, JavaScript, LocalStorage |
+| `Expense Tracker` | **Expense Tracker** | 🟢 Completed | HTML5, CSS3, JavaScript, LocalStorage |
 | `shoppingApp` | **Shopping App** | ⏳ Coming Soon | HTML5, CSS3, JavaScript DOM & State |
 | `TODO-list` | **Task Manager (TODO)** | ⏳ Coming Soon | Vanilla JavaScript, LocalStorage |
 | `api-learning2` | **API Practice Lab** | 🧪 Testing | REST API, Async / Await |
