@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+        }
+
+        .container {
+            background-color: rgb(52, 52, 52);
+            padding: 20px 30px;
+            border-radius: 30px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container form {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .container form input{
+            height: 35px;
+            padding: 0px 10px ;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+        }
+
+        .container form button {
+            height: 35px;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            background-color: blueviolet;
+            font-weight: 800;
+            color: white;
+            width: 75px;
+            cursor: pointer;
+        }
+
+        .newStyle {
+            background-color: black;
+            padding: 10px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .newStyle button {
+            border: none;
+            outline: none;
+            background-color: blueviolet;
+            color: white;
+            border-radius: 10px;
+            height: 30px;
+            width: 75px;
+            cursor: pointer;
+        }
+
+        .newStyle button {
+            font-weight: 700;
+        }
+
+        .total_container {
+            display: flex;
+            align-items: end;
+            width: 100%;
+            justify-content: right;
+            font-size: large;
+        }
+
+        .hidden {
+            visibility: hidden;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <form action="" id="exorese_submit">
+            <input type="text" placeholder="Expense name" id="exp_name">
+            <input type="number" placeholder="Expense amount" id="exp_price">
+            <button id="submit_button">Submit</button>
+        </form>
+        <div class="expenses" id="view_exp">
+            
+        </div>
+        <div class="total_container ">
+            <p>Total : $<span id="total_exp">0.00</span></p>
+        </div>
+    </div>
+
+    <script src="expense.js"></script>
+</body>
+</html>
