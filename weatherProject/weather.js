@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const errorMessage = document.getElementById('error-message');
 
-    const API_KEY = 'e5d398e774efcb61c8594b093825ac1b';
+    const API_KEY = `Enter you API key here`;
 
     inputCityButton.addEventListener('click', async () => {
         const city = inputCity.value.trim();
