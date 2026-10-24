@@ -13,7 +13,7 @@ Here you will find a curated collection of practical front-end applications, ran
 | `weatherProject` | **Weather App** | 🟢 Completed | HTML5, CSS3, JavaScript (Fetch API) |
 | `Expense Tracker` | **Expense Tracker** | 🟢 Completed | HTML5, CSS3, JavaScript, LocalStorage |
 | `shoppingApp` | **Shopping App** | ⏳ Coming Soon | HTML5, CSS3, JavaScript DOM & State |
-| `TODO-list` | **Task Manager (TODO)** | ⏳ Coming Soon | Vanilla JavaScript, LocalStorage |
+| `TODO-list` | **Task Manager (TODO)** | 🟢 Completed | Vanilla JavaScript, LocalStorage |
 | `api-learning2` | **API Practice Lab** | 🧪 Testing | REST API, Async / Await |
 | `api-test` | **API Experiments** | 🧪 Testing | Promises, JSON Data Handling |
 
@@ -40,7 +40,7 @@ A clean, responsive weather forecast application that pulls real-time weather da
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/krunal-viradiya/JavaScript-Projects.git](https://github.com/krunal-viradiya/JavaScript-Projects.git)
+   git clone https://github.com/krunal-viradiya/JavaScript-Projects.git
    ```
 
 2. Navigate into the repository directory:
