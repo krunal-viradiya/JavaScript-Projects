@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            background-color: rgb(33, 32, 32);
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .todo-box {
+            height: 550px;
+            width: 400px;
+            background-color: rgb(50, 50, 50);
+            border-radius: 30px;
+            /* display: flex;
+            flex-direction: column; */
+        }
+
+        .heading {
+            height: 50px;
+            width: 100%;
+            color: white;
+            text-align: center;
+            /* background-color: pink; */
+        }
+
+        .entry-data {
+            height: 80px;
+            width: 100%;
+            /* background-color: black; */
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            box-sizing: border-box;
+            gap: 30px;
+            padding: 0 30px;
+            align-items: center;
+        }
+
+        .entry-data button {
+            background-color: blueviolet;
+            color: white;
+            font-size: large;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            height: 50px;
+            width: 90px;
+            margin-right: 20px;
+        }
+
+        .entry-data input {
+            background-color: rgb(30, 29, 29);
+            color: white;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            padding-left: 10px;
+            height: 60px;
+            width: 75%;
+        }
+
+        .data {
+            width: 100%;
+            height: 300px;
+            /* background-color: red; */
+            overflow: scroll;
+            /* min-height: 400px; */
+            /* box-sizing: content-box; */
+        }
+
+        .data::-webkit-scrollbar {
+            display: none;
+        }
+
+        .data ul {
+            list-style-type: none;
+            /* padding: 10px; */
+            padding: 0px 30px;
+        }
+
+        .data li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 10px;
+            background-color: rgb(89, 87, 87);
+            border-radius: 10px;
+            margin-bottom: 10px;
+            padding: 15px;
+            min-height: 40px;
+        }
+
+        .data li p {
+            color: white;
+            font-size: larger;
+            box-sizing: border-box;
+            width: 70%;
+            flex-wrap: wrap;
+        }
+
+        .data li button {
+            height: 40px;
+            width: 90px;
+            color: white;
+            background-color: red;
+            outline: none;
+            border: none;
+            border-radius: 15px;
+            font-size: large;
+            flex-shrink: 0;
+        }
+
+        .completed {
+            text-decoration: line-through;
+            color: white;
+            visibility: 0.7;
+        }
+
+        .end {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            /* margin-bottom: 20px; */
+        }
+        
+    </style>
+    <script src="todolist.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="todo-box">
+            <div class="heading">
+                <h1>To-Do list</h1>
+            </div>
+            <div class="entry-data">
+                <input type="text" name="" placeholder="add a new task..." id="inpute_data">
+                <button id="submit_button">Add Task</button>
+            </div>
+            <div class="data">
+                <ul id="ul_list">
+                
+                </ul>
+            </div>
+            <div class="end">
+                <h2>Scroll for view tasks</h2>
+            </div>
+             
+        </div>
+       
+    </div>
+    
+</body>
+
+</html>
