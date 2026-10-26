@@ -15,7 +15,7 @@ Here you will find a curated collection of practical front-end applications, ran
 | `shoppingApp` | **Shopping App** | 🟢 Completed | HTML5, CSS3, JavaScript DOM & State |
 | `TODO-list` | **Task Manager (TODO)** | 🟢 Completed | Vanilla JavaScript, LocalStorage |
 | `api-learning2` | **API Practice Lab** | 🧪 Testing | REST API, Async / Await |
-| `api-test` | **API Experiments** | 🧪 Testing | Promises, JSON Data Handling |
+| `api-test` | **API Experiments** | 🟢 Completed | Promises, JSON Data Handling |
 
 ---
 
