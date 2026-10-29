@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quize App</title>
+    <style>
+        body{
+            background-color: rgb(31, 31, 31);
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            padding: 30px;
+            background-color: rgb(57, 57, 57);
+            border-radius: 30px;
+            /* min-height: 300px; */
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container button {
+            background-color: blueviolet;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            width: 100px;
+            height: 50px;
+            cursor: pointer;
+        }
+
+        .hidden {
+            visibility: hidden;
+        }
+
+        .newStyle {
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            list-style-type: none;
+            margin-top: 10px;
+            cursor: pointer;
+            /* width: 100%; */
+        } 
+
+        ul {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        .quation_container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #nextQuize_button {
+            margin-top: 15px;
+            width: 100%;
+        }
+
+        .selected {
+            background-color: blueviolet;
+        }
+
+        .result_container p {
+            text-align: center;
+        }
+
+        .result_container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .invisible {
+            display: none;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quize App</h1>
+        <div class="quize_container hidden" id="quize_container">
+            <div class="quation_container">
+                <h2 id="quation"></h2>
+                <ul id="options">
+
+                </ul>
+                <button id="nextQuize_button">Next Quation</button>
+            </div>
+        </div>
+        <div class="result_container hidden" id="result_container">
+                <h2>Your Score</h2>
+                <p id="score"></p>
+                <button id="restartButton">Restart Quize</button>
+        </div>
+        <button id="startQuizeButton">Start Quize</button>
+    </div>
+
+    <script src="quize.js"></script>
+</body>
+</html>
