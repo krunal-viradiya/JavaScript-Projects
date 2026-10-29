@@ -14,6 +14,7 @@ Here you will find a curated collection of practical front-end applications, ran
 | `Expense Tracker` | **Expense Tracker** | 🟢 Completed | HTML5, CSS3, JavaScript, LocalStorage |
 | `shoppingApp` | **Shopping App** | 🟢 Completed | HTML5, CSS3, JavaScript DOM & State |
 | `TODO-list` | **Task Manager (TODO)** | 🟢 Completed | Vanilla JavaScript, LocalStorage |
+| `quizeApp` | **Quize App** | 🟢 Completed | HTML, CSS, JavaScript DOM   |
 | `api-learning2` | **API Practice Lab** | 🟢 Completed | REST API, Async / Await |
 | `api-test` | **API Experiments** | 🟢 Completed | Promises, JSON Data Handling |
 
